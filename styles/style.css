@@ -132,8 +132,9 @@ body {
 }
 
 .principal__output__text{
+    display: flex;
     box-sizing: border-box;
-    white-space: pre-wrap;
+    justify-content: center;
 }
 
 .principal__output__text__group{
@@ -149,12 +150,12 @@ body {
 
 .principal__output__text__group h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .principal__output__text__group h2{
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 @media (max-width: 1110px) {
@@ -220,7 +221,7 @@ body {
     }
     .principal__input__btngroup__buttons{
         
-    flex-flow: column wrap;
+        flex-flow: column wrap;
         justify-content: center;
     }
     .principal__input__btngroup__button__criptograph, .principal__input__btngroup__button__uncriptograph  {
