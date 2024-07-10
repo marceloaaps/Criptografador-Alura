@@ -150,12 +150,12 @@ body {
 
 .principal__output__text__group h1{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .principal__output__text__group h2{
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 @media (max-width: 1110px) {
@@ -180,6 +180,16 @@ body {
     .principal__input__btngroup__buttons{
         width: 100%;
 
+    }
+
+    .principal__output__text__group h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    
+    .principal__output__text__group h2{
+        text-align: center;
+        font-size: 1.8rem;
     }
      
     .principal__output{
@@ -212,7 +222,6 @@ body {
         height: 48px;
         margin: 0px 0px 0px 10px;
     }
-
  
     .principal__input {
         width: 96%;
@@ -227,6 +236,17 @@ body {
     .principal__input__btngroup__button__criptograph, .principal__input__btngroup__button__uncriptograph  {
         padding: 1rem 2.5rem;
     }
+
+    .principal__output__text__group h1{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    
+    .principal__output__text__group h2{
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
     .principal__output{
         height: 20%;
     }
