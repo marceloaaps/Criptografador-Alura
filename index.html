@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Alura</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <main class="principal">
+    <div class="alura__img"><img class="principal__logo" src="assets/a_lura.svg" alt="A de Alura"></div>
+    
+    <section class="principal__input">
+      <textarea class="principal__input__text" id="cryptText" placeholder="Digite aqui"></textarea>
+
+      <div class="principal__input__btngroup">
+        <p class="principal__input__btngroup__alert">
+          <img class="principal__input__btngroup__alert__img" src="assets/info.png" alt="">
+          Apenas letras minúsculas e sem acento.
+        </p>
+        <div class="principal__input__btngroup__buttons">
+          <button class="principal__input__btngroup__button__criptograph" id="encryptButton">Criptografar</button>
+          <button class="principal__input__btngroup__button__uncriptograph" id="decryptButton">Descriptografar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="principal__output">
+      <output  id="outputResult" class="principal__output__text">
+        <div class="principal__output__text__group" >
+          <img src="assets/woman.svg" alt="">
+          <h1>Nenhuma mensagem encontrada</h1>
+          <h2>Digite um texto que você deseja criptografar ou descriptografar.</h2>
+        </div> 
+      </output>    
+    </section>
+    
+  </main>
+</body>
+</html>
